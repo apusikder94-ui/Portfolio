@@ -53,7 +53,6 @@ const Contact = () => {
 
             <textarea
               placeholder="Your Message"
-              rows="5"
               className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg outline-none focus:border-primary"
             ></textarea>
 
