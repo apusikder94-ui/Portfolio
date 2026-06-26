@@ -1,5 +1,6 @@
 import React from "react";
-import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -50,7 +51,7 @@ const Contact = () => {
                 className="flex items-center gap-4 hover:text-primary transition"
               >
                 <Phone className="w-6 h-6 text-primary" />
-                <span>+880 1XXXXXXXXX</span>
+                <span>+880 1909280740</span>
               </a>
 
               <div className="flex items-center gap-4">
@@ -69,7 +70,7 @@ const Contact = () => {
                 rel="noreferrer"
                 className="w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center hover:bg-primary hover:text-black transition duration-300"
               >
-                <Github />
+                <FaGithub />
               </a>
 
               <a
@@ -78,7 +79,7 @@ const Contact = () => {
                 rel="noreferrer"
                 className="w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center hover:bg-primary hover:text-black transition duration-300"
               >
-                <Linkedin />
+                <FaLinkedin />
               </a>
 
             </div>
