@@ -39,7 +39,7 @@ const Skills = () => {
         {/* Title */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold">
-            My <span className="text-primary">Skills</span>
+            My Skills
           </h2>
           <p className="text-gray-400 mt-3">
             Technologies I work with

@@ -58,7 +58,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            My <span className="text-primary">Projects</span>
+            My Projects
           </h2>
           <p className="text-gray-400 mt-4">
             Some of my recent works and full-stack applications
