@@ -1,8 +1,19 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import heroImage from "@/public/hero.jpeg";
 
 const About = () => {
+  const handleScroll = (section: string) => {
+    const element = document.getElementById(section.toLowerCase());
+
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
   return (
     <section id="about" className="bg-black text-gray-100 py-24">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
@@ -56,11 +67,17 @@ const About = () => {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 pt-4">
-              <button className="px-6 py-2 bg-white text-black rounded-full font-medium hover:bg-gray-200 transition">
+              <a
+                href="/Apu_Sikder_Resume.docx"
+                download="Apu_Sikder_Resume.docx"
+                className="px-6 py-2 bg-white text-black rounded-full font-medium hover:bg-gray-200 transition"
+              >
                 Download CV
-              </button>
+              </a>
 
-              <button className="px-6 py-2 border border-gray-500 rounded-full hover:bg-white hover:text-black transition">
+              <button
+              onClick={()=>handleScroll("Contact")}
+              className="px-6 py-2 border border-gray-500 rounded-full hover:bg-white hover:text-black transition">
                 Contact Me
               </button>
             </div>

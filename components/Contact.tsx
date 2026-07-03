@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-black py-24 text-white">
+    <section id="contact" className="bg-black py-24 text-white text-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
@@ -42,20 +42,20 @@ const Contact = () => {
                 href="mailto:apusikder94@gmail.com"
                 className="flex items-center gap-4 hover:text-primary transition"
               >
-                <Mail className="w-6 h-6 text-primary" />
+                <Mail className="w-6 h-6 text-white" />
                 <span>apusikder94@gmail.com</span>
               </a>
 
               <a
                 href="tel:+8801XXXXXXXXX"
-                className="flex items-center gap-4 hover:text-primary transition"
+                className="flex items-center gap-4 hover:text-white transition"
               >
-                <Phone className="w-6 h-6 text-primary" />
+                <Phone className="w-6 h-6 text-white" />
                 <span>+880 1909280740</span>
               </a>
 
               <div className="flex items-center gap-4">
-                <MapPin className="w-6 h-6 text-primary" />
+                <MapPin className="w-6 h-6 text-white" />
                 <span>Bangladesh</span>
               </div>
 
@@ -108,7 +108,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full py-4 rounded-lg bg-primary text-black font-bold hover:scale-105 transition duration-300"
+              className="w-full py-4 rounded-lg text-black font-bold hover:scale-105 transition duration-300 bg-white"
             >
               Send Message
             </button>
